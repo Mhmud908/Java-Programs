@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "reverseInterger",
+            "request": "launch",
+            "mainClass": "reverseInterger",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "Pract1",
+            "request": "launch",
+            "mainClass": "Pract1",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "Sekend",
+            "request": "launch",
+            "mainClass": "Sekend",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "towerOfHanoi",
+            "request": "launch",
+            "mainClass": "towerOfHanoi",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "subStrings",
+            "request": "launch",
+            "mainClass": "subStrings",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "twoSum",
+            "request": "launch",
+            "mainClass": "twoSum",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "ComplexPattern",
+            "request": "launch",
+            "mainClass": "ComplexPattern",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "Float",
+            "request": "launch",
+            "mainClass": "Float",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "src_eae580e2"
+        },
+        {
+            "type": "java",
+            "name": "Menu",
+            "request": "launch",
+            "mainClass": "Menu",
+            "projectName": "src_eae580e2"
+        }
+    ]
+}
