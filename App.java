@@ -1,3 +1,5 @@
+
+//   Writing Allah using loops
 import java.util.Scanner;
 public class App {
     public static void main(String args[]) {
@@ -6,6 +8,7 @@ public class App {
         System.out.println("\t \t     .  .  .");
         System.out.println("\t\t     *.* *.*");
 
+          
         System.out.println("\n\n");
         char s = '*';
         for(int i=1;i<=10;++i){
