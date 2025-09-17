@@ -14,7 +14,8 @@ public class Pract1 {
             if () {
                 
             }
-            condi(u);
+            condi(u); 
+            System.out.println("Hi");
         }
     }
     
