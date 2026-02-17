@@ -1,6 +1,8 @@
 package restart;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 class ArrayLists {
     public static void main(String[] args) {
@@ -26,6 +28,9 @@ class ArrayLists {
         System.out.println(list2);
 
         list2.add(2, 8);
+        System.out.println(list2);
+
+        Collections.sort(list2);
         System.out.println(list2);
 
 

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TypingSimulation",
+            "request": "launch",
+            "mainClass": "restart.TypingSimulation",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "TypingSimulation",
+            "request": "launch",
+            "mainClass": "TypingSimulation",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "ArrayLists",
             "request": "launch",
             "mainClass": "restart.ArrayLists",
