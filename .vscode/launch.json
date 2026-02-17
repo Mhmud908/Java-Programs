@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayLists",
+            "request": "launch",
+            "mainClass": "restart.ArrayLists",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "reverseInterger",
             "request": "launch",
             "mainClass": "reverseInterger",
