@@ -27,5 +27,18 @@ public class BankAccount {
             System.out.println("Invalid withdrawal amount.");
         }
     }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+    public double getBalance() {
+        return balance;
+    }
+
+    
     
 }
