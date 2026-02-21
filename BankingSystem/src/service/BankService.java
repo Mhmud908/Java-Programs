@@ -15,10 +15,18 @@ public class BankService {
         totalTransactions = 0;
 
     }
-
     public void addAccount(BankAccount account) {
         accounts.add(account);
     }
+    
+        public BankAccount findAccount(int accountNumber) {
+            
+            for (BankAccount account : accounts) {
+                if (account.getAccountNumber() == accountNumber) {
+                    return account;
+                }
+            }
 
     
+}
 }
