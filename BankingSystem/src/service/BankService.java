@@ -19,14 +19,43 @@ public class BankService {
         accounts.add(account);
     }
     
-        public BankAccount findAccount(int accountNumber) {
+        public BankAccount findAccount(String accountNumber) {
             
             for (BankAccount account : accounts) {
-                if (account.getAccountNumber() == accountNumber) {
+                if (accountNumber.equals(account.getAccountNumber())) {
                     return account;
                 }
             }
+            return null;
+        }
+
+        public void deposit(String accountNumber, double amount) {
+            BankAccount account = findAccount(accountNumber);
+            if(account != null){
+                account.deposit(amount);
+                totalTransactions++;
+            }else{
+                System.out.println("Account not found.");
+            }
+        }
+
+        
+        public void withdraw(String accountNumber, double amount){
+
+            BankAccount account = findAccount(accountNumber);
+            if(account != null){
+                if(amount <= account.getBalance()){
+                    account.withdraw(amount);
+                    totalTransactions++;
+                }
+                else{
+                    System.out.println("Insufficient funds.");
+                }
+            }else{
+                System.out.println("Account not found.");
+            }
+            
+        }
 
     
-}
 }
