@@ -2,6 +2,7 @@ package BankingSystem.src.service;
 
 import java.util.ArrayList;
 
+import BankingSystem.src.exception.InsufficientBalanceException;
 import BankingSystem.src.model.BankAccount;
 
 public class BankService {
@@ -40,20 +41,17 @@ public class BankService {
         }
 
         
-        public void withdraw(String accountNumber, double amount){
+        public void withdraw(String accountNumber, double amount) throws InsufficientBalanceException{
 
             BankAccount account = findAccount(accountNumber);
-            if(account != null){
-                if(amount <= account.getBalance()){
-                    account.withdraw(amount);
-                    totalTransactions++;
-                }
-                else{
-                    System.out.println("Insufficient funds.");
-                }
-            }else{
-                System.out.println("Account not found.");
+
+            if(account == null){
+                throw new IllegalArgumentException("Account not found.");
             }
+
+            account.withdraw(amount);
+            totalTransactions++;
+
             
         }
 
