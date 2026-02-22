@@ -1,5 +1,7 @@
 package BankingSystem.src.model;
 
+import BankingSystem.src.exception.InsufficientBalanceException;
+
 public class BankAccount {
 
     private String accountNumber;
@@ -20,13 +22,17 @@ public class BankAccount {
         }
     }
 
-    public void withdraw(double amount) {
-        if (amount > 0 && amount <= balance) {
-            balance -= amount;
-        } else {
-            System.out.println("Invalid withdrawal amount.");
-        }
-    }
+public void withdraw(double amount) throws InsufficientBalanceException {
+
+    if (amount <= 0)
+        throw new IllegalArgumentException("Amount must be positive.");
+
+    if (amount > balance)
+        throw new InsufficientBalanceException("Insufficient balance.");
+
+    balance -= amount;
+}
+
 
     public String getAccountNumber() {
         return accountNumber;
@@ -37,6 +43,12 @@ public class BankAccount {
     }
     public double getBalance() {
         return balance;
+    }
+
+    public void displayAccountInfo() {
+        System.out.println("Account Number: " + accountNumber);
+        System.out.println("Account Holder: " + accountHolderName);
+        System.out.println("Balance: $" + balance);
     }
 
     
