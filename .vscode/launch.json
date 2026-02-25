@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum3",
+            "request": "launch",
+            "mainClass": "TwoSum3",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "Banking",
             "request": "launch",
             "mainClass": "Banking",

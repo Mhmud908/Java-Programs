@@ -9,10 +9,13 @@ public class TwoSum3{
                 }
             }
         }
+        return new int[] {-1, -1}; // Return -1, -1 if no solution is found
     }
 
 
     public static void main(String[] args) {
-        
+
+
+                
     }
 }
