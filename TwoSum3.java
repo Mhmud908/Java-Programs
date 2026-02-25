@@ -7,7 +7,9 @@ public class TwoSum3{
                 if (nums[i] + nums[j] == target) {
                     return new int[] {i, j};
                 }
+
             }
+            return new int[] {-1, -1}; // Return -1, -1 if no solution is found
         }
         return new int[] {-1, -1}; // Return -1, -1 if no solution is found
     }
