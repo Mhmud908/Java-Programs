@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Account {
+public class Account {
 	int mn;
 
 	Scanner sc = new Scanner(System.in);

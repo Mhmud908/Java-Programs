@@ -22,6 +22,7 @@ class BankCustomer {
         return true;
     }
 
+
     public double getBalance() {
         return balance;
     }
@@ -117,6 +118,8 @@ public class BankSystem2 {
 								BankCustomer mehmood = new BankCustomer("Mehmood", 120000);
 								BankApp app = new BankApp(mehmood);
 								app.dashboard();
+
+                                
 				}
 				
 }

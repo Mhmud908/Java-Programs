@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Banking",
+            "request": "launch",
+            "mainClass": "Banking",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "BankSystem2",
+            "request": "launch",
+            "mainClass": "BankSystem2",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "TwoSum2",
             "request": "launch",
             "mainClass": "TwoSum2",
