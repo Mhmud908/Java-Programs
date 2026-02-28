@@ -15,6 +15,7 @@ public class SecondLargestNumber {
                     largest = numbers[i];
                     }else{
                         largest = secondLargest;
+                        secondLargest = numbers[i]; 
                     }
                 }
             }
