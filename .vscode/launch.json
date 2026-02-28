@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LargestNumberInArray",
+            "request": "launch",
+            "mainClass": "LargestNumberInArray",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "TwoSum3",
             "request": "launch",
             "mainClass": "TwoSum3",

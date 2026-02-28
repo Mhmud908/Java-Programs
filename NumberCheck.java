@@ -11,7 +11,9 @@ public class NumberCheck {
             num /= 10; // Remove the last digit
         }
         
+
         System.out.println("The sum of the digits is: " + sum);
+        
     }
     
 }

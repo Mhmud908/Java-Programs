@@ -1,22 +1,27 @@
+public class LargestNumberInArray {
 
-
-public class TwoSum3{
-
-    public static int[] twoSum(int[] nums, int target){
-
-        Map<Integer, Integer> bothNums = new HashMap<>();
-
-        for(int i = 0; i < nums.length; i++){
-            int secondNum = target - nums[i];
-            if(bothNums.containsKey(secondNum)){
-                return bothnums[0]+" "+bothNums[1];
-            }
-
-        }
-    }
-
-    
     public static void main(String[] args) {
+        int[] numbers = {5,2,9, 1, 7};
+
+        int largest = numbers[0];
+        for(int i=0; i<numbers.length; i++){
+
+            for(int j = 0; j<numbers.length; j++){
+                if(numbers[i] > numbers[j] && i != j){
+
+                    largest = numbers[i]
+                }
+            }
+        }
+
+        int largest = numbers[0];
+        for(int i=0; i<numbers.length; i++){
+                if(numbers[i] > largest){
+                    largest = numbers[i]
+                }
+            }
+        }
+
         
     }
 }
