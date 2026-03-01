@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SecondLargestNumber",
+            "request": "launch",
+            "mainClass": "SecondLargestNumber",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "LargestNumberInArray",
             "request": "launch",
             "mainClass": "LargestNumberInArray",

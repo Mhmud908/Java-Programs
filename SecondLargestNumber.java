@@ -16,7 +16,6 @@ public class SecondLargestNumber {
 
                         largest = secondLargest;
                         secondLargest = numbers[i]; 
-
                     }
 
                 }
@@ -26,7 +25,7 @@ public class SecondLargestNumber {
 
             }
         System.out.println("The second largest number is: " + secondLargest);
-        
+
 
         }
 }
