@@ -5,5 +5,3 @@ My Program so far
 2) Banking system using LL
 
 
-interview questions
-https://github.com/liquidslr/interview-company-wise-problems.git
