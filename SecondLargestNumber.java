@@ -4,7 +4,6 @@ public class SecondLargestNumber {
 
         int[] numbers = {10, 5, 2, 30};
 
-
             int largest = numbers[0];
         int secondLargest = numbers[1];
 
@@ -14,11 +13,20 @@ public class SecondLargestNumber {
                     if(largest > secondLargest){
                     largest = numbers[i];
                     }else{
+
                         largest = secondLargest;
                         secondLargest = numbers[i]; 
+
                     }
+
                 }
+                    else if(numbers[i] > secondLargest && numbers[i] != largest){
+                        secondLargest = numbers[i];
+                    }
+
             }
+        System.out.println("The second largest number is: " + secondLargest);
+        
 
         }
 }
