@@ -2,30 +2,36 @@ public class SecondLargestNumber {
 
     public static void main(String[] args) {
 
-        int[] numbers = {10, 5, 2, 30};
+        int[] numbers = {9, 9, 9};
 
-            int largest = numbers[0];
-        int secondLargest = numbers[1];
+        if(numbers.length < 2) {
+            System.out.println("Array must have at least two elements.");
+            return;
+        }
 
-        for(int i=1; i<numbers.length; i++){
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
 
-                if(numbers[i] > largest){
-                    if(largest > secondLargest){
-                    largest = numbers[i];
-                    }else{
+        for(int i = 0; i < numbers.length; i++) {
 
-                        largest = secondLargest;
-                        secondLargest = numbers[i]; 
-                    }
+            if(numbers[i] > largest) {
 
-                }
-                    else if(numbers[i] > secondLargest && numbers[i] != largest){
-                        secondLargest = numbers[i];
-                    }
+                secondLargest = largest;
+                largest = numbers[i];
 
             }
-        System.out.println("The second largest number is: " + secondLargest);
+            else if(numbers[i] > secondLargest && numbers[i] != largest) {
 
+                secondLargest = numbers[i];
 
+            }
         }
+
+        if(secondLargest == Integer.MIN_VALUE) {
+            System.out.println("No second largest element exists.");
+        }
+        else {
+            System.out.println("Second largest number is: " + secondLargest);
+        }
+    }
 }

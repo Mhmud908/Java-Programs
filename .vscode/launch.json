@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseArray2",
+            "request": "launch",
+            "mainClass": "reverseArray2",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "SecondLargestNumber",
             "request": "launch",
             "mainClass": "SecondLargestNumber",

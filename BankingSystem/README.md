@@ -1,46 +1,19 @@
-public class LargestNumberInArray {
+public class reverseArray2 {
 
     public static void main(String[] args) {
-        int[] numbers = {5,2,9, 1, 7};
 
-        int largest = numbers[0];
-        for(int i=0; i<numbers.length; i++){
-                if(numbers[i] > largest){
-                    largest = numbers[i]
-                }
-            }
+        int[] arr = {1, 2, 3, 4, 5};
 
+        int n = arr.length;
+        for(int i = 0; i < n/2; i++){
 
-        int largest = numbers[0];
-        int secondLargest = numbers[1];
+                int temp = arr[i];
+                arr[i] = arr[n-1];
+                arr[n-1] = temp;  
 
-        for(int i=0; i<numbers.length; i++){
-
-                if(numbers[i] > largest > secondLargest){
-                    largest = numbers[i]
-                }
-            }
-
-
-        int largest = numbers[0];
-        int secondLargest = numbers[1];
-
-        for(int i=0; i<numbers.length; i++){
-
-                if(numbers[i] > largest){
-                    if(largest > secondLargest){
-                    largest = numbers[i]
-                    }else{
-                        largest = second
-                    }
-                }
-            }
-        }
-
-
-
+            
         }
 
         
-    }
+    
 }
