@@ -17,5 +17,10 @@ public class RotateArraysOnePosRight {
             arr[0] = lastElement;
         
         }
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     
+}
 }
