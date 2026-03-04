@@ -4,6 +4,8 @@ public class RotateArraysOnePosRight {
 
     public static void main(String[] args) {
 
+        System.out.println("Rotate array one position to the right:");
+
         int[] arr = {1, 2, 3, 4, 5};
 
         if (arr.length == 0) {
@@ -21,6 +23,7 @@ public class RotateArraysOnePosRight {
         for (int num : arr) {
             System.out.print(num + " ");
         }
+
     
 }
 }
