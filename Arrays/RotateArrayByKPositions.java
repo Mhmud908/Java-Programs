@@ -5,7 +5,7 @@ public class RotateArrayByKPositions {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5};
-        int k = 2;
+        int k = 3;
 
         if(arr.length == 0) {
             System.out.println("Array is empty.");
