@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankLL",
+            "request": "launch",
+            "mainClass": "BankLL",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "charPalindromeChecker",
+            "request": "launch",
+            "mainClass": "charPalindromeChecker",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayByKPositions",
+            "request": "launch",
+            "mainClass": "Arrays.RotateArrayByKPositions",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "PractRough",
+            "request": "launch",
+            "mainClass": "Arrays.PractRough",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "RotateArraysOnePosRight",
             "request": "launch",
             "mainClass": "Arrays.RotateArraysOnePosRight",

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package javaapplication3;
+// package javaapplication3;
 
 public class charPalindromeChecker {
 
@@ -16,21 +16,21 @@ public class charPalindromeChecker {
             char currChar = word.charAt(i);
 
             if (currChar >= 'A' && currChar <= 'Z') {
-                word.append((char) (currChar + ('a' - 'A')));
+                words.append((char) (currChar + ('a' - 'A')));
             }
             else {
 
-                word.append(currChar);
+                words.append(currChar);
             }
         }
 
-        if (checkPalindrome(word) == true) {
-            System.out.println("\" " + word + " \" is a Palindrome");
+        if (checkPalindrome(words.toString()) == true) {
+            System.out.println("\" " + words.toString() + " \" is a Palindrome");
 
         }
         else {
 
-            System.out.println("\" " + word + " \" is Not a Palindrome");
+            System.out.println("\" " + words.toString() + " \" is Not a Palindrome");
         }
     }
 

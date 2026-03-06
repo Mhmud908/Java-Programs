@@ -22,7 +22,6 @@ class BankCustomer {
         return true;
     }
 
-
     public double getBalance() {
         return balance;
     }
@@ -108,19 +107,15 @@ class BankApp {
     }
 }
 
-
-
 public class BankSystem2 {
-				
-				public static void main(String[] args) {
-								System.out.println("Digital Banking!");
-								
-								BankCustomer mehmood = new BankCustomer("Mehmood", 120000);
-								BankApp app = new BankApp(mehmood);
-								app.dashboard();
 
-                                
-				}
-				
+    public static void main(String[] args) {
+        System.out.println("Digital Banking!");
+
+        BankCustomer mehmood = new BankCustomer("Mehmood", 120000);
+        BankApp app = new BankApp(mehmood);
+        app.dashboard();
+
+    }
+
 }
-
