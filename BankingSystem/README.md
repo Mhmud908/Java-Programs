@@ -1,21 +1,18 @@
-package Arrays;
+public class MissingNumber {
 
-public class RotateArraysOnePosRight {
+    public static void main( String args[]){
 
-    public static void main(String[] args) {
+        
 
         int[] arr = {1, 2, 3, 4, 5};
 
-        if (arr.length == 0) {
-            System.out.println("Array is empty.");
-        }else {
-            int lastElement = arr[arr.length-1];
+        int n = arr.length;
 
-            for(int i = arr.length-1; i > 0; i--){
-                arr[i] = arr[i-1];
-            }
-            arr[0] = lastElement;
-        
+        int sum = 0;
+        for(int i = 0; i < n-1; i++){
+            sum = sum+arr[i];
         }
-    
+
+    }
+
 }

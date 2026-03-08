@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "BankLL",
             "request": "launch",
             "mainClass": "BankLL",
