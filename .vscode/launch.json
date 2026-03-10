@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTheDuplicate",
+            "request": "launch",
+            "mainClass": "Arrays.FindTheDuplicate",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "PalindromeStrings",
             "request": "launch",
             "mainClass": "strings.PalindromeStrings",
