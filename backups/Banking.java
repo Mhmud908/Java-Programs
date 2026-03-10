@@ -15,7 +15,7 @@ class Account{
 		amount = tAmount;
 	}
 	
-	void menu()
+	// void menu()
 	
 void display(){
 	
