@@ -2,12 +2,12 @@ package Arrays;
 public class LargestNumberInArray {
 
     public static void main(String[] args) {
-        int[] numbers = {-10, -5, -2, -30};
+        int[] arr = {-10, -5, -2, -30};
 
-         int largest = numbers[0];
-        for(int i=1; i<numbers.length; i++){
-                if(numbers[i] > largest){
-                    largest = numbers[i];
+         int largest = arr[0];
+        for(int i=1; i<arr.length; i++){
+                if(arr[i] > largest){
+                    largest = arr[i];
                 }
             }
             

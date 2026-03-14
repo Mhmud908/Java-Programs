@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZerosToStart",
+            "request": "launch",
+            "mainClass": "Arrays.ZerosToStart",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "LongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "Arrays.LongestConsecutiveSequence",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfArrayExceptItself",
+            "request": "launch",
+            "mainClass": "Arrays.ProductOfArrayExceptItself",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubArraySum",
+            "request": "launch",
+            "mainClass": "Arrays.MaxSubArraySum",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "FindTheDuplicate",
             "request": "launch",
             "mainClass": "Arrays.FindTheDuplicate",
