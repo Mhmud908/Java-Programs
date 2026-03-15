@@ -1,31 +1,30 @@
 package Arrays;
+
+import java.util.Arrays;
+
 public class reverseArray2 {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1, 2, 3, 4, 5 };
+        int[] arr = {9, 1, 0, 3, 4, 5};
 
-        int n = arr.length;
-
-        System.out.println(" Before Reversing: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+        int left = 0;
+        int right = arr.length-1;
+        while(left < right){
+            int temp = arr[left];
+            
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
 
-        for (int i = 0; i < n / 2; i++) {
-
-            int temp = arr[i];
-            arr[i] = arr[n - 1];
-            arr[n - 1] = temp;
-            n--;
-
-        }
-        System.out.println(" After Reversing: ");
-
-        for (int i = 0; i < arr.length; i++) {
-
-            System.out.print(arr[i] + " ");
-        }
+         System.out.println("The array after reversing is: ");
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i] + " ");
+        // }
+        ///// --------{ OR }--------
+         System.out.println("Reversed: " + Arrays.toString(arr));
 
     }
 }
