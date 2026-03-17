@@ -31,6 +31,7 @@ public class LongestConsecutiveSequence {
                     currentLength++;
                 }
 
+                
                 maxLength = Math.max(maxLength, currentLength);
             }
         }
