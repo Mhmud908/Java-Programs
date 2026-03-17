@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetMatrixZeroes",
+            "request": "launch",
+            "mainClass": "Arrays.SetMatrixZeroes",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "reverseArray2",
             "request": "launch",
             "mainClass": "Arrays.reverseArray2",
