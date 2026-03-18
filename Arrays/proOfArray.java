@@ -6,8 +6,6 @@ public class proOfArray {
 		
 		int arr[] = {-1,1,0,-3,3};
 		int result[] = new int[arr.length];
-		////result[0] =arr[0];
-		////System.out.println(result[0]);
 			
 		for (int i=0; i<arr.length; i++){
 		
