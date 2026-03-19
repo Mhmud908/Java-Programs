@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubarraySumEqualsK",
+            "request": "launch",
+            "mainClass": "Arrays.SubarraySumEqualsK",
+            "projectName": "Java-Programs_d0e21c45"
+        },
+        {
+            "type": "java",
             "name": "SetMatrixZeroes",
             "request": "launch",
             "mainClass": "Arrays.SetMatrixZeroes",
