@@ -11,7 +11,6 @@ public class ProductOfArrayExceptItself {
         }
         System.out.println();
 
-        // Test the function
     }
 
     public static int[] productExceptSelf(int[] nums) {
@@ -19,12 +18,10 @@ public class ProductOfArrayExceptItself {
         int[] result = new int[n];
         result[0] = 1;
 
-        // Calculate left products
         for (int i = 1; i < n; i++) {
             result[i] = result[i - 1] * nums[i - 1];
         }
 
-        // Calculate right products and multiply with left products
         int rightProduct = 1;
         for (int i = n - 1; i >= 0; i--) {
             result[i] *= rightProduct;
