@@ -10,8 +10,6 @@ public class PractRough {
     public static void main(String[] args) {
 
 
-
-
         // Example Input
         int[] nums = {1, 0, 1, 2, 0, 5, 0, 9}; 
 
