@@ -11,27 +11,23 @@ public class PractRough {
 
 
         // Example Input
-        int[] nums = {1, 0, 1, 2, 0, 5, 0, 9}; 
+        int[] arr = {1, 0, 1, 2, 0, 5, 0, 9}; 
+
 
         int insertPos = 0;
-        System.out.println(nums[0]);
-
-        for(int i = 0; i < nums.length; i++) {
-            if(nums[i] != 0 || nums[i] < 0 || nums[i] > 0) {
-                // System.out.println(nums[i]);
-                nums[insertPos] = nums[i];
-                insertPos++;
+        ///// for non zeros
+         for(int i = 0; i < arr.length; i++){
+            if(arr[i] != 0){
+                arr[insertPos++] = arr[i];
             }
-        }
-
-        for(int i = insertPos; i < nums.length; i++) {
-            nums[i] = 0;
-        }
-
-        for(int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
-        }
+         }
         
+         ///// for zeros
+         for(int i = insertPos; i < arr.length; i++){
+                arr[i] = 0;
+         }
+
+         System.out.println(Arrays.toString(arr));
 
         
         
